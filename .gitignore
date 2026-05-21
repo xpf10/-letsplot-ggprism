@@ -1,0 +1,17 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Test and development files
+.pytest_cache/
+lets-plot-images/
+verify_plot.py
+prism_plot_verification.html
+
