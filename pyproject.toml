@@ -19,5 +19,6 @@ build-backend = "uv_build"
 dev = [
     "mkdocs>=1.6.1",
     "mkdocs-material>=9.7.6",
+    "pandas>=2.3.3",
     "pytest>=8.4.2",
 ]
