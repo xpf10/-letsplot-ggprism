@@ -61,3 +61,19 @@ ggsave(plot, "my_prism_plot.html")
 * **`theme_prism()`**: Easy-to-use Lets-Plot theme that mirrors GraphPad Prism style (thick axes, bold text, custom font styling, and optional panel borders).
 * **`scale_color_prism()` / `scale_fill_prism()`**: Discrete color/fill scales using all 20+ Prism-specific palettes (e.g. `colors`, `flames`, `candy_bright`, `evergreen`, `prism_light`, etc.).
 * **`scale_shape_prism()`**: Point shape scales based on the Prism shape palettes (`default`, `filled`, `complete`).
+
+---
+
+## Visual Gallery
+
+Here is what these themes and color scales look like:
+
+### 1. Default Colors (No Border)
+![Default Colors](images/colors_sample.png)
+
+### 2. Flames Theme & Scale (With Border)
+![Flames](images/flames_sample.png)
+
+### 3. Prism Dark Theme & Scale (No Border)
+![Prism Dark](images/prism_dark_sample.png)
+
