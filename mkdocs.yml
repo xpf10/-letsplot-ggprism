@@ -6,6 +6,8 @@ repo_url: https://github.com/xpf10/-letsplot-ggprism
 
 theme:
   name: material
+  logo: images/logo.png
+  favicon: images/favicon.png
   palette:
     # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"

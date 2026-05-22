@@ -1,4 +1,4 @@
-# letsplot-ggprism
+# letsplot-ggprism <img src="images/logo.png" align="right" height="130" />
 
 A GraphPad Prism theme and palette package for Python's [Lets-Plot](https://lets-plot.org/) library.
 
