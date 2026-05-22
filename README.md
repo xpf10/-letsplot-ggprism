@@ -15,13 +15,13 @@ This package is a port of the popular R package [ggprism](https://github.com/csd
 You can install `letsplot-ggprism` directly from your local path or via git:
 
 ```bash
-pip install git+https://github.com/<your-username>/letsplot-ggprism.git
+pip install git+https://github.com/xpf10/-letsplot-ggprism.git
 ```
 
 Or using `uv`:
 
 ```bash
-uv add git+https://github.com/<your-username>/letsplot-ggprism.git
+uv add git+https://github.com/xpf10/-letsplot-ggprism.git
 ```
 
 ## Quickstart
