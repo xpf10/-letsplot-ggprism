@@ -84,20 +84,19 @@ for (supp, dose), m in means.items():
         tg_rows.append({"len": val, "supp": supp, "dose": str(dose)})
 df_tg = pd.DataFrame(tg_rows)
 
-# Significance bracket segments
-# dose has categories "0.5", "1.0", "2.0", mapped to x-axis positions 1, 2, 3
-bracket_df = pd.DataFrame([
-    {"x": 1.0, "xend": 3.0, "y": 36.0, "yend": 36.0}, # top bar
-    {"x": 1.0, "xend": 1.0, "y": 36.0, "yend": 34.5}, # left tick
-    {"x": 3.0, "xend": 3.0, "y": 36.0, "yend": 34.5}, # right tick
-])
+# Significance bracket
+bracket_data = {
+    "xmin": ["0.5"],
+    "xmax": ["2.0"],
+    "y": [36.0],
+    "label": ["p < 0.0001"]
+}
 
 p2 = (
     ggplot(df_tg, aes(x="dose", y="len"))
     + geom_violin(aes(color="dose", fill="dose"), trim=False, alpha=0.4)
     + geom_boxplot(aes(fill="dose"), width=0.15, color="black", show_legend=False)
-    + geom_segment(aes(x="x", xend="xend", y="y", yend="yend"), data=bracket_df, color="black", size=0.8)
-    + geom_text(x=2.0, y=37.0, label="p < 0.0001", size=4, fontface="bold")
+    + geom_bracket(aes(xmin="xmin", xmax="xmax", y="y", label="label"), data=bracket_data, size=4, fontface="bold")
     + scale_color_prism("floral")
     + scale_fill_prism("floral")
     + theme_prism(palette="floral", base_size=14)
