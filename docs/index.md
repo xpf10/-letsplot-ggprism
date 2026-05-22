@@ -77,3 +77,15 @@ Here is what these themes and color scales look like:
 ### 3. Prism Dark Theme & Scale (No Border)
 ![Prism Dark](images/prism_dark_sample.png)
 
+---
+
+## Quick Navigation
+
+Explore the full documentation guides and galleries:
+
+* 🎨 **[Palettes Gallery](palettes.md)** — Browse all 20+ custom GraphPad Prism color and fill palettes.
+* ⚙️ **[Themes Guide](themes.md)** — Learn how to apply and customize `theme_prism()`.
+* 📏 **[Scales Guide](scales.md)** — Guide to using color, fill, and shape scales.
+* 📊 **[Examples Gallery](examples.md)** — Advanced examples including Dose-Response curves and significance brackets.
+
+

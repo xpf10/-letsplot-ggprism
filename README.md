@@ -78,6 +78,31 @@ Some popular palettes include:
 - `colorblind_safe` (optimized for readability)
 - `prism_light` / `prism_dark` (themes from newer Prism versions)
 
+## Documentation & Reference Examples
+
+For comprehensive guides and beautiful galleries, check out the documentation site:
+- 📖 **[Documentation Home](https://xpf10.github.io/-letsplot-ggprism/)**
+- 🎨 **[Palettes Gallery](https://xpf10.github.io/-letsplot-ggprism/palettes/)** — Visual list of all 20+ Prism color/fill palettes.
+- ⚙️ **[Themes Guide](https://xpf10.github.io/-letsplot-ggprism/themes/)** — How to use `theme_prism()` and customize fonts, borders, and layouts.
+- 📏 **[Scales Guide](https://xpf10.github.io/-letsplot-ggprism/scales/)** — Detailed description of custom shape and color/fill scales.
+- 📊 **[Examples Gallery](https://xpf10.github.io/-letsplot-ggprism/examples/)** — Step-by-step advanced plotting examples:
+    - [Dose-Response Curve](https://xpf10.github.io/-letsplot-ggprism/examples/#1-dose-response-curve)
+    - [ToothGrowth Violin + Boxplot with Significance Bracket](https://xpf10.github.io/-letsplot-ggprism/examples/#2-violin-boxplot-with-significance-bracket)
+    - [Bar Chart with Error Bars](https://xpf10.github.io/-letsplot-ggprism/examples/#3-bar-chart-with-error-bars)
+
+*(Alternatively, you can browse the Markdown files directly in this repository: [Examples Gallery](docs/examples.md), [Palettes Gallery](docs/palettes.md), [Themes Guide](docs/themes.md), [Scales Guide](docs/scales.md)).*
+
+## R `ggprism` Comparison
+
+This package maps directly to the features of the original R package, making transition simple:
+
+| R `ggprism` Feature | Python `letsplot-ggprism` | Status |
+| --- | --- | --- |
+| `theme_prism()` | `theme_prism()` | Fully Supported |
+| `scale_colour_prism()` | `scale_color_prism()` / `scale_colour_prism()` | Fully Supported |
+| `scale_fill_prism()` | `scale_fill_prism()` | Fully Supported |
+| `scale_shape_prism()` | `scale_shape_prism()` | Fully Supported |
+
 ## License
 
 MIT License.
